@@ -1,3 +1,5 @@
 BitCam is a fun little application that gives images and webcam capture a nice retro-computing aesthetic. 
 
+It needs to be optimized a bit more but as of now will run fast enough to produce satisfactory results in a webcam capture.
+
 Requires the Processing library.
