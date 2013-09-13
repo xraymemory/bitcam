@@ -521,8 +521,8 @@ public class BitCam extends PApplet {
                         // http://stackoverflow.com/questions/477572/android-strange-out-of-memory-issue/823966#823966
                         scale = (int) Math.pow(
                                         2.0,
-                                        (int) Math.round(Math.log(256 / (double) Math.mawidth,
-                                                        height)) / Math.log(0.5)));
+                                        (int) Math.round(Math.log(256 / (double) Math.max(width,
+                                                        height))) / Math.log(0.5)));
                 }
         }
 
